@@ -9,3 +9,7 @@ def hello_world():
 @app.route('/bye')
 def bye_dayche():
     return 'Bye, Dayche!'
+
+@app.route('/hamed')
+def bye_dayche():
+    return 'Which Sandwich do you like?'
